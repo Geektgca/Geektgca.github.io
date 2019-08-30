@@ -10,7 +10,7 @@ include_once 'dbconnect.php';
 //set validation error flag as false
 $error = false;
 
-//check if form is submitted
+//check if form is submittedd
 if (isset($_POST['SendMessage'])) {
     $name = mysqli_real_escape_string($con, $_POST['name']);
     $message = mysqli_real_escape_string($con, $_POST['message']);
